@@ -1,0 +1,319 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+/*
+------------------
+-----------------
+NAVIGATION
+------------------
+------------------
+*/
+
+#upper{
+	box-sizing: border-box;
+	height: 70px ;
+	width: 100% ;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 15px ;
+	padding-bottom: 8px ;
+	position: fixed;
+}
+#head{
+	box-sizing: border-box;
+	font-family: serif;
+	vertical-align: center ;
+	font-size: 25px ;
+	width: 40% ;
+
+}
+#nav{
+	box-sizing: border-box;
+	width: 60% ;
+	align-content: center;
+	display: flex;
+	justify-content: space-between;
+	text-decoration: none;
+}
+
+/*			
+			-----------
+			INTRO
+			-----------
+			-----
+
+*/
+#intro_text{
+	color: white ;
+	overflow: hidden;
+}
+
+#intro_back{
+	box-sizing: border-box;
+
+	background-color: #1E2E7D;
+	background: url("intro.webp") no-repeat;
+	width: 100%;
+	height: 738px;
+	overflow: hidden;
+}
+
+#intro
+{
+	height: 100% ;
+	width: 330px;
+	padding-top: 25%;
+	letter-spacing: 0.05em;
+	padding-left: 18%;
+	background-color: rgba(0, 48, 91, 0.5);
+	overflow: hidden;
+	/*padding-top: 25%;
+	letter-spacing: 0.05em;
+	padding-left: 18%;
+	background-color: rgba(0, 48, 91, 0.5);*/
+}
+/*
+------------------
+-----------------
+PRACTICE AREAS
+----------------
+----------------------
+*/
+#practice_area{
+	box-sizing: border-box;
+	height: 600px ;
+	display: flex;
+	flex-flow: row;
+
+}
+
+#practice_area h1{
+	width: 40%;
+	background-color: #E1FCFF ;
+	color: #031C2F ;
+	padding-top: 50px ;
+	padding-right: 30px ;
+	align-content :right ;
+	border-right: 20px;
+
+}
+
+#areas{
+	padding-top: 75px ;
+	padding-bottom: 75px ;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-around;
+	background-color: #FBFFFF ;
+}
+
+#left, #right{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+}
+
+li{
+	list-style: square ;
+	font-size: 20px ;
+}
+/*
+li::before {
+	content: "\2022" ;
+	color: #53AFB3 ;
+	display: inline-block;
+	font-size: 30px ;
+}
+*/
+/*
+----------------
+----------------
+VISION
+---------------
+---------------
+
+*/
+#vision{
+	background-color: #031C2F ;
+	height: 650px ;
+	color: white ;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+#vision_head{
+	padding-top: 40px;
+	font-size: 50px ;
+}
+
+#vision_text{
+	text-align: center;
+	font-size: 16px;
+}
+/*
+--------------------
+--------------------
+ATTORNEY
+----------------------
+-------------------
+
+*/
+#attorney{
+	display: flex;
+	background-color: #E9F8FA ;
+	flex-flow: column;
+	height: 650px ;
+}
+
+#att_head{
+	color: #031C2F ;
+	padding: 50px;
+	text-align: center;
+	font-size: 40px ;
+}
+
+#pro_cont{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.name, .tel{
+	color: #031C2F ;
+}
+.part{
+	color: #0551A6 ;
+}
+/*
+------------------
+---------------------
+CONTACT
+---------------------------
+---------------------
+*/
+
+#contact{
+	display: flex;
+	background-image: url(contact.webp);
+	color: white ;
+	height: 650px;
+}
+
+#head_contact{
+	box-sizing: border-box;
+	width: 40% ;
+	padding-top: 10% ;
+	padding-left: 10% ;
+	background-color: rgba(18, 75, 139, .95);
+	font-size: 40px;
+}
+
+#con{
+	box-sizing: border-box;
+	width: 60% ;
+	background-color: rgba(18, 75, 139, .7);
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	padding-top: 12% ;
+	padding-left: 5% ;
+	padding-bottom: 15% ;
+}
+
+.com_det{
+	display: flex;
+	flex-flow: row;
+}
+
+#addr{
+	font-size: 25px ;
+}
+
+#click{
+	color: #58A1B6 ;
+}
+
+form{
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-content: flex-start;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+}
+
+#leftform, #rightform{
+	box-sizing: border-box;
+	width: 28 ;
+	height: 60px ;	
+	border-right: 5px ;
+}
+
+#leftform input{
+	height: 20px ;
+}
+
+#rightform input{
+	height: 60px ;
+}
+
+#send{
+	/*align-content: right ;
+	height: 10px ;
+	background-color: */
+	box-sizing: border-box;
+	border: 0;
+	height: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: rgba(65, 183, 196, 1);
+    padding: 5px;
+    
+}
+
+#b2top{
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+	justify-content: center;
+	color: white ;
+	background-color: #061E51 ;
+	height: 100px ;
+	width: 100% ;
+	padding-bottom: 20px;
+}
+/*
+#b2topsign{
+	border: 0
+
+	font-size: 100px;
+}*/
+
+#b2topsign{
+	box-sizing: border-box;
+	height: 60px;
+	font-weight: lighter;
+	color: white ;
+	font-size: 70px ;
+	text-decoration: none;
+}
+
+#copyright{
+	box-sizing: border-box;
+	border: 0;
+	height: 150px;
+	padding-left: 50px ;
+	padding-top: 75px ;
+	color: #061E51 ;
+}
