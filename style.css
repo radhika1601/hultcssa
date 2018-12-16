@@ -36,6 +36,8 @@ NAVIGATION
 
 }
 #nav{
+	text-decoration: none;
+	color: 
 	box-sizing: border-box;
 	width: 60% ;
 	align-content: center;
@@ -122,8 +124,16 @@ PRACTICE AREAS
 }
 
 li{
-	list-style: square ;
+	list-style: none;
 	font-size: 20px ;
+	color: #031C2F ;
+}
+li::before {
+	content: "\25AA";
+	color: rgba(65, 183, 196, 1);
+    display: inline-block; 
+    width: 1em;
+    margin-left: 1em;
 }
 /*
 li::before {
