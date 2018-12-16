@@ -28,6 +28,7 @@ NAVIGATION
 	position: fixed;
 }
 #head{
+	vertical-align: middle;
 	box-sizing: border-box;
 	font-family: serif;
 	vertical-align: center ;
@@ -36,8 +37,11 @@ NAVIGATION
 
 }
 #nav{
+	box-sizing: border-box;
+	padding-top: 15px ;
+	vertical-align: middle;
 	text-decoration: none;
-	color: 
+	color: rgb(18, 75, 139);
 	box-sizing: border-box;
 	width: 60% ;
 	align-content: center;
